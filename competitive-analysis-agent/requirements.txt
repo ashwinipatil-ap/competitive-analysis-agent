@@ -1,0 +1,15 @@
+# Core
+pandas>=2.2.0
+numpy>=1.26.0
+python-dotenv>=1.0.1
+
+# LLM + RAG stack
+cohere>=5.5.8
+llama-index>=0.11.0
+llama-index-embeddings-cohere>=0.3.0
+
+# Optional reranker used in pipeline (SentenceTransformerRerank)
+sentence-transformers>=3.0.0
+
+# CLI niceties (optional)
+rich>=13.7.0
